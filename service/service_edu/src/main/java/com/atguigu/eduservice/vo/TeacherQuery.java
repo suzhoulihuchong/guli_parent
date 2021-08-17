@@ -21,5 +21,6 @@ public class TeacherQuery {
     private String end2;
     private String end3;
     private String end6;
+    private String end4;
 
 }
