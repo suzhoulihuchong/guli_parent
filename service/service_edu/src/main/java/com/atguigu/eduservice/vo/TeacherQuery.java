@@ -19,4 +19,6 @@ public class TeacherQuery {
 
     private String end1;
     private String end2;
+    private String end3;
+
 }
