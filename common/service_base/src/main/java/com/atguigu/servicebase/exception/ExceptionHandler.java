@@ -31,4 +31,12 @@ public class ExceptionHandler {
         e.printStackTrace();
         return Result.error().code(e.getCode()).message(e.getMsg());
     }
+    
+
+    public Result errors(GuliException e){
+        log.error("仅仅测试");
+        e.printStackTrace();
+        return Result.error().code(e.getCode()).message(e.getMsg());
+    }
+    
 }
